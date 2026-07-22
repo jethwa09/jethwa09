@@ -104,58 +104,87 @@
     <!-- border shimmer -->
     <rect x="1.5" y="1.5" width="1177" height="607" rx="22.5" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
 
-    <!-- ============ LEFT PANEL — ASCII portrait ============ -->
-    <g transform="translate(60,175)">
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite"/>
-        <text font-family="'Fira Code', Consolas, monospace" font-size="7.6" fill="url(#asciiGrad)" filter="url(#softGlow)">
-                    <tspan x="0" dy="0" opacity="0" xml:space="preserve">                          .-=++**+=-:                     <animate attributeName="opacity" to="1" begin="0.15s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                        -++*%%%%@%%%%+                    <animate attributeName="opacity" to="1" begin="0.195s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                      .*%**%%%%@@@@@@@*                   <animate attributeName="opacity" to="1" begin="0.24s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                      #@%*-..:--:-+#%@@+                  <animate attributeName="opacity" to="1" begin="0.285s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     =@@#.        :-*%@@=                 <animate attributeName="opacity" to="1" begin="0.33s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     +%*==-=**=-=++**#%@%                 <animate attributeName="opacity" to="1" begin="0.375s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     +%=---+#+--##%%%**%+                 <animate attributeName="opacity" to="1" begin="0.42s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     -+   .:-: :*+=+*+#%:                 <animate attributeName="opacity" to="1" begin="0.465s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                    .:-  .+#+*##%*==+*##.                 <animate attributeName="opacity" to="1" begin="0.51s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     .=+-=%#**#%%@%#**%#-                 <animate attributeName="opacity" to="1" begin="0.555s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                     .*###*--=*#%%@@%@@+                  <animate attributeName="opacity" to="1" begin="0.6s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                      +%%@%***#%%@@@@%-                   <animate attributeName="opacity" to="1" begin="0.645s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">                      .#@@@@%%%%@@@@*.                    <animate attributeName="opacity" to="1" begin="0.69s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">-.   .               : .+#%%%%%%%%%+                      <animate attributeName="opacity" to="1" begin="0.735s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">=-=:::. :.    .-==++++  .-+##%#####*+-.                   <animate attributeName="opacity" to="1" begin="0.78s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">===-----::-=+++*++++*+  :::=*######@@@%#+-.               <animate attributeName="opacity" to="1" begin="0.825s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">------==++++++++++++**+-====*#*###%@@@@@@@%#*+=-          <animate attributeName="opacity" to="1" begin="0.87s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">---===++****#####*****#*+=+######%%@@@@@@@@@@@@@#=.       <animate attributeName="opacity" to="1" begin="0.915s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">==+++**#########%%%%%%%#%#++=+##%%@@@@@@@@@@@@@@@@%-      <animate attributeName="opacity" to="1" begin="0.96s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">+**###*##############%%%%%%%*+#%%%@@@@@@@@@@@@@@@@@@#:    <animate attributeName="opacity" to="1" begin="1.005s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">**#%%**#########%########%%%%@%%%%%@@@@@@@@@@@@@@@@@@+:---<animate attributeName="opacity" to="1" begin="1.05s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">*%@%#+*###*############%%%%#%#####%%%@@@@@@@@@@%%@@@%#====<animate attributeName="opacity" to="1" begin="1.095s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">%@%#*++**##################%#########%@@@@@@@@%%%@@%%%=--=<animate attributeName="opacity" to="1" begin="1.14s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">%%**#+##***###*###%#%%%%%%%%#%%#%#####%%@@@@@@%%@%@%%%*:::<animate attributeName="opacity" to="1" begin="1.185s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">*+*%%*%@%######+==###%#%%%%%%%%%%#######%@@@@@%%%%%%%%%-.:<animate attributeName="opacity" to="1" begin="1.23s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">+#%@%%@@%%%%%%==+-###**#######%%%%%%#+*##%#%@@@%%%@%%%%+ .<animate attributeName="opacity" to="1" begin="1.275s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="8.8" opacity="0" xml:space="preserve">%@@@%%@@@#%@@%+++=*######*#########%#++**++%%%%%%@@@@%%+ .<animate attributeName="opacity" to="1" begin="1.32s" dur="0.01s" fill="freeze"/></tspan>
-          <tspan x="0" dy="14.080000000000002" opacity="0" font-size="10">kernel@edge:~$ <animate attributeName="opacity" to="1" begin="1.515s" dur="0.01s" fill="freeze"/></tspan>
-        </text>
-        <rect x="98" y="244" width="7" height="12" fill="#22D3EE" opacity="0">
-          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.001;0.05;0.5;0.55;1" begin="1.815s" dur="1s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-    </g>
-
-    <!-- ============ RIGHT PANEL — terminal ============ -->
-    <g transform="translate(500,50)">
-      <rect x="0" y="0" width="630" height="512" rx="16" fill="#0F172A" fill-opacity="0.72" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-      <!-- glass reflection -->
-      <path d="M 0 16 Q 0 0 16 0 L 400 0 L 60 512 L 16 512 Q 0 512 0 496 Z" fill="#FFFFFF" opacity="0.02"/>
+    <!-- ============ LEFT PANEL — boxed terminal with ASCII portrait ============ -->
+    <g transform="translate(40,50)">
+      <rect x="0" y="0" width="500" height="510" rx="16" fill="#0F172A" fill-opacity="0.72" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <path d="M 0 16 Q 0 0 16 0 L 320 0 L 48 510 L 16 510 Q 0 510 0 494 Z" fill="#FFFFFF" opacity="0.02"/>
 
       <!-- terminal header -->
       <circle cx="24" cy="24" r="6" fill="#EF4444" opacity="0.8"/>
       <circle cx="44" cy="24" r="6" fill="#F59E0B" opacity="0.8"/>
       <circle cx="64" cy="24" r="6" fill="#10B981" opacity="0.8"/>
-      <text x="315" y="29" text-anchor="middle" font-family="monospace" font-size="12" fill="#94A3B8">vipul@profile — zsh</text>
-      <line x1="0" y1="46" x2="630" y2="46" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <text x="250" y="29" text-anchor="middle" font-family="monospace" font-size="12" fill="#94A3B8">vipul@kernel: ~/portrait</text>
+      <line x1="0" y1="46" x2="500" y2="46" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+      <g transform="translate(28,68)">
+        <animateTransform attributeName="transform" type="translate" values="28,68; 28,62; 28,68" dur="6s" repeatCount="indefinite"/>
+<text font-family="'Fira Code', Consolas, monospace" font-size="7.9" fill="url(#asciiGrad)" filter="url(#softGlow)">
+                              <tspan x="0" dy="0" opacity="0" xml:space="preserve">                       :=+***##%#*+=::                          <animate attributeName="opacity" to="1" begin="0.12s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                     -%%@%%%%%%#*#%%%**==.                      <animate attributeName="opacity" to="1" begin="0.146s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                   :+%%%%%%%%%%#+***####@%:                     <animate attributeName="opacity" to="1" begin="0.172s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                  =%%%%%%%%%%@%@%%%%#%%%%@%                     <animate attributeName="opacity" to="1" begin="0.198s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                 -%%%%%%%%%%%%@%###@@%%%%%-                     <animate attributeName="opacity" to="1" begin="0.224s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                -%%%%%@@@@@@@%%##*++***#**                      <animate attributeName="opacity" to="1" begin="0.25s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               -@%%%#****#****+===-::::-#*.                     <animate attributeName="opacity" to="1" begin="0.276s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               =@%%%=-----=--::--:::.   =*                      <animate attributeName="opacity" to="1" begin="0.302s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               -@%#==-=+++*++==*#++=--:.:=                      <animate attributeName="opacity" to="1" begin="0.328s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               =@+=-=+#%%%%#+#*++*##*=::-=-                     <animate attributeName="opacity" to="1" begin="0.354s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               +**=-=+##%%%#*+::-#%%#+=:--:                     <animate attributeName="opacity" to="1" begin="0.38s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               -%*-=-==***++*-..-:=+=:..:--                     <animate attributeName="opacity" to="1" begin="0.406s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">              .-#=:-=-===+++=-- ..:... ...:                     <animate attributeName="opacity" to="1" begin="0.432s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">              *+++---==++***#*+==:==:.   ..                     <animate attributeName="opacity" to="1" begin="0.458s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">             .++*#===+**##%@@%%%*-.--    -:                     <animate attributeName="opacity" to="1" begin="0.484s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">              =++%#*+*%@@%######**#*+-..:++.                    <animate attributeName="opacity" to="1" begin="0.51s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">              :=+#%%%#%@%#**++=-::+@%=:-==..                    <animate attributeName="opacity" to="1" begin="0.536s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               .:#%%@%%@%#%%%%%#+--##++*+:                      <animate attributeName="opacity" to="1" begin="0.562s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                 =%%%@@@@%%%###*+*%%##*-                        <animate attributeName="opacity" to="1" begin="0.588s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                  #@%@@@%@@%%%%######*.                         <animate attributeName="opacity" to="1" begin="0.614s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                .=+%@@@@@@@@@@@@%%%%%*                          <animate attributeName="opacity" to="1" begin="0.64s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               .%#=*%%%%%@@@@@@@@%%#+-                          <animate attributeName="opacity" to="1" begin="0.666s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">               .%#+**#####%%%%%#*+=:=.                          <animate attributeName="opacity" to="1" begin="0.692s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">        ..      +%***********+=-::-*=          ..               <animate attributeName="opacity" to="1" begin="0.718s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   -=-=*#.      .##*+++++++**=-:-=#+       ++++++++==--:.       <animate attributeName="opacity" to="1" begin="0.744s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   +###%=         *#**++++++=--+*%=        =###*####**++=-:     <animate attributeName="opacity" to="1" begin="0.77s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   *%%%%-      ..  :+**++++++***+:         -%%%%%%%%%#**+==-.   <animate attributeName="opacity" to="1" begin="0.796s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #%%%%%*===*#%%#    =++++***=:::=-.      =@%%%######**++==-   <animate attributeName="opacity" to="1" begin="0.822s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   +*###%%%%%%%%%@%#*: .-+++=-+%@@@@%#=--=+%%*+========-=+++-   <animate attributeName="opacity" to="1" begin="0.848s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">     ..::::::::-----=-   ..:+*%##****#***+=-.            .-+    <animate attributeName="opacity" to="1" begin="0.874s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                            ..                                  <animate attributeName="opacity" to="1" begin="0.9s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                                                <animate attributeName="opacity" to="1" begin="0.926s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                                                <animate attributeName="opacity" to="1" begin="0.952s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                                                <animate attributeName="opacity" to="1" begin="0.978s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   ::::::....                          .::..               =*.  <animate attributeName="opacity" to="1" begin="1.004s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #@%%%###########****++=+++*++*+++**%%#*++***+==++=:    =**-  <animate attributeName="opacity" to="1" begin="1.03s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #%%%%##*****###%%@@%#*#%%@@@%@@@@@@%#+++*****+*%%*+%%#+***-  <animate attributeName="opacity" to="1" begin="1.056s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #%%%%%###*******+#%%%%@%%%%%%%%%%%%#+=+****+++*#*=*@%*#*+*=  <animate attributeName="opacity" to="1" begin="1.082s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #%%%%%%########*+#%%%%%@@%@@%@%%%%*+=+***#*+++*#++%%#%%**#=  <animate attributeName="opacity" to="1" begin="1.108s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   #@%%%%%%%######%%##%%%%%%%%%@%%%#*++**###*++=+**=#%#%@%#**=  <animate attributeName="opacity" to="1" begin="1.134s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   *%%%%%%%%####%%%%%%%%%@@@@%%%%%#*++**####*+++**++%#%@%###*   <animate attributeName="opacity" to="1" begin="1.16s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   *%%%%#######%##%%%%#%%%%%%%%###**+******#++++*+=#%%@*..::.   <animate attributeName="opacity" to="1" begin="1.186s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">   .::::::::-----===+++****++-::.::::---==++++++++:#*+:         <animate attributeName="opacity" to="1" begin="1.212s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                               ...     .:.      <animate attributeName="opacity" to="1" begin="1.238s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                                  .=*%@@@%###=  <animate attributeName="opacity" to="1" begin="1.264s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="9.0" opacity="0" xml:space="preserve">                                                  -====---:--   <animate attributeName="opacity" to="1" begin="1.29s" dur="0.01s" fill="freeze"/></tspan>
+          <tspan x="0" dy="13.5" opacity="0" font-size="12">kernel@edge:~$ <animate attributeName="opacity" to="1" begin="1.466s" dur="0.01s" fill="freeze"/></tspan>
+        </text>
+        <rect x="118" y="418" width="8" height="14" fill="#22D3EE" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.001;0.05;0.5;0.55;1" begin="1.766s" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- ============ RIGHT PANEL — terminal ============ -->
+    <g transform="translate(560,50)">
+      <rect x="0" y="0" width="580" height="510" rx="16" fill="#0F172A" fill-opacity="0.72" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <path d="M 0 16 Q 0 0 16 0 L 370 0 L 55 510 L 16 510 Q 0 510 0 494 Z" fill="#FFFFFF" opacity="0.02"/>
+
+      <!-- terminal header -->
+      <circle cx="24" cy="24" r="6" fill="#EF4444" opacity="0.8"/>
+      <circle cx="44" cy="24" r="6" fill="#F59E0B" opacity="0.8"/>
+      <circle cx="64" cy="24" r="6" fill="#10B981" opacity="0.8"/>
+      <text x="290" y="29" text-anchor="middle" font-family="monospace" font-size="12" fill="#94A3B8">vipul@profile — zsh</text>
+      <line x1="0" y1="46" x2="580" y2="46" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
 
       <!-- greeting -->
       <text x="30" y="86" font-family="'Fira Code', Consolas, monospace" font-size="24" fill="#F8FAFC" opacity="0">
@@ -167,24 +196,26 @@
         <animate attributeName="opacity" to="1" begin="0.7s" dur="0.4s" fill="freeze"/>
       </text>
 
-      <!-- typing role text -->
+      <!-- typing role text: true character-by-character terminal typing -->
+      <defs>
+        <clipPath id="clipRole0"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.004329;0.008658;0.012987;0.017316;0.021645;0.025974;0.030303;0.034632;0.038961;0.04329;0.047619;0.051948;0.056277;0.060606;0.064935;0.069264;0.073593;0.077922;0.082251;0.08658;0.090909;0.148629;0.155556;1.0" values="0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;205.2;216.0;226.8;226.8;0;0"/></rect></clipPath>
+        <clipPath id="clipRole1"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.171717;0.176046;0.180375;0.184704;0.189033;0.193362;0.197691;0.20202;0.206349;0.210678;0.215007;0.219336;0.223665;0.227994;0.232323;0.290043;0.29697;1.0" values="0;0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;151.2;0;0"/></rect></clipPath>
+        <clipPath id="clipRole2"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.313131;0.31746;0.321789;0.326118;0.330447;0.334776;0.339105;0.343434;0.347763;0.352092;0.356421;0.36075;0.365079;0.369408;0.373737;0.378066;0.382395;0.386724;0.391053;0.448773;0.4557;1.0" values="0;0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;194.4;0;0"/></rect></clipPath>
+        <clipPath id="clipRole3"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.471861;0.47619;0.480519;0.484848;0.489177;0.493506;0.497835;0.502165;0.506494;0.510823;0.515152;0.519481;0.52381;0.528139;0.532468;0.536797;0.541126;0.545455;0.549784;0.554113;0.558442;0.562771;0.5671;0.571429;0.629149;0.636075;1.0" values="0;0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;205.2;216.0;226.8;237.6;248.4;248.4;0;0"/></rect></clipPath>
+        <clipPath id="clipRole4"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.652237;0.656566;0.660895;0.665224;0.669553;0.673882;0.678211;0.68254;0.686869;0.691198;0.695527;0.699856;0.704185;0.708514;0.712843;0.717172;0.721501;0.72583;0.730159;0.787879;0.794805;1.0" values="0;0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;194.4;0;0"/></rect></clipPath>
+        <clipPath id="clipRole5"><rect x="30" y="144" width="0" height="24"><animate attributeName="width" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.810967;0.815296;0.819625;0.823954;0.828283;0.832612;0.836941;0.84127;0.845599;0.849928;0.854257;0.858586;0.862915;0.867244;0.871573;0.875902;0.880231;0.88456;0.888889;0.893218;0.897547;0.901876;0.906205;0.910534;0.914863;0.919192;0.976912;0.983838;1.0" values="0;0;10.8;21.6;32.4;43.2;54.0;64.8;75.6;86.4;97.2;108.0;118.8;129.6;140.4;151.2;162.0;172.8;183.6;194.4;205.2;216.0;226.8;237.6;248.4;259.2;270.0;270.0;0;0"/></rect></clipPath>
+      </defs>
       <g font-family="'Fira Code', Consolas, monospace" font-size="18" fill="#22D3EE">
-        <text x="30" y="160" opacity="0">
-          &gt; Linux Kernel Engineer<tspan fill="#22D3EE">▌</tspan>
-          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.02;0.23;0.25" begin="3s" dur="20s" repeatCount="indefinite"/>
-        </text>
-        <text x="30" y="160" opacity="0">
-          &gt; Embedded Systems Developer<tspan fill="#22D3EE">▌</tspan>
-          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.27;0.48;0.50" begin="3s" dur="20s" repeatCount="indefinite"/>
-        </text>
-        <text x="30" y="160" opacity="0">
-          &gt; Edge AI Enthusiast<tspan fill="#22D3EE">▌</tspan>
-          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.52;0.73;0.75" begin="3s" dur="20s" repeatCount="indefinite"/>
-        </text>
-        <text x="30" y="160" opacity="0">
-          &gt; FPGA &amp; Robotics Hobbyist<tspan fill="#22D3EE">▌</tspan>
-          <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.77;0.98;1.0" begin="3s" dur="20s" repeatCount="indefinite"/>
-        </text>
+        <g clip-path="url(#clipRole0)"><text x="30" y="160">&gt; Linux Kernel Engineer</text></g>
+        <g clip-path="url(#clipRole1)"><text x="30" y="160">&gt; FPGA Developer</text></g>
+        <g clip-path="url(#clipRole2)"><text x="30" y="160">&gt; Robotics &amp; Sensors</text></g>
+        <g clip-path="url(#clipRole3)"><text x="30" y="160">&gt; Device Driver Developer</text></g>
+        <g clip-path="url(#clipRole4)"><text x="30" y="160">&gt; Edge AI Enthusiast</text></g>
+        <g clip-path="url(#clipRole5)"><text x="30" y="160">&gt; Embedded Systems Engineer</text></g>
+        <rect x="30" y="146" width="3" height="20" fill="#22D3EE">
+          <animate attributeName="x" begin="3s" dur="17.325s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0;0.004329;0.008658;0.012987;0.017316;0.021645;0.025974;0.030303;0.034632;0.038961;0.04329;0.047619;0.051948;0.056277;0.060606;0.064935;0.069264;0.073593;0.077922;0.082251;0.08658;0.090909;0.148629;0.155556;0.171717;0.176046;0.180375;0.184704;0.189033;0.193362;0.197691;0.20202;0.206349;0.210678;0.215007;0.219336;0.223665;0.227994;0.232323;0.290043;0.29697;0.313131;0.31746;0.321789;0.326118;0.330447;0.334776;0.339105;0.343434;0.347763;0.352092;0.356421;0.36075;0.365079;0.369408;0.373737;0.378066;0.382395;0.386724;0.391053;0.448773;0.4557;0.471861;0.47619;0.480519;0.484848;0.489177;0.493506;0.497835;0.502165;0.506494;0.510823;0.515152;0.519481;0.52381;0.528139;0.532468;0.536797;0.541126;0.545455;0.549784;0.554113;0.558442;0.562771;0.5671;0.571429;0.629149;0.636075;0.652237;0.656566;0.660895;0.665224;0.669553;0.673882;0.678211;0.68254;0.686869;0.691198;0.695527;0.699856;0.704185;0.708514;0.712843;0.717172;0.721501;0.72583;0.730159;0.787879;0.794805;0.810967;0.815296;0.819625;0.823954;0.828283;0.832612;0.836941;0.84127;0.845599;0.849928;0.854257;0.858586;0.862915;0.867244;0.871573;0.875902;0.880231;0.88456;0.888889;0.893218;0.897547;0.901876;0.906205;0.910534;0.914863;0.919192;0.976912;0.983838;1.0" values="30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;192.0;202.8;213.6;224.4;235.2;246.0;256.8;256.8;30;30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;181.2;30;30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;192.0;202.8;213.6;224.4;224.4;30;30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;192.0;202.8;213.6;224.4;235.2;246.0;256.8;267.6;278.4;278.4;30;30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;192.0;202.8;213.6;224.4;224.4;30;30;40.8;51.6;62.4;73.2;84.0;94.8;105.6;116.4;127.2;138.0;148.8;159.6;170.4;181.2;192.0;202.8;213.6;224.4;235.2;246.0;256.8;267.6;278.4;289.2;300.0;300.0;30;30"/>
+          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.55;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
       </g>
 
       <line x1="30" y1="182" x2="600" y2="182" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
@@ -193,9 +224,9 @@
       <g font-family="'Fira Code', Consolas, monospace" font-size="14">
         <text x="30" y="212" fill="#94A3B8" opacity="0">📍 Location <tspan fill="#F8FAFC">Mountain View, CA</tspan><animate attributeName="opacity" to="1" begin="1.0s" dur="0.3s" fill="freeze"/></text>
         <text x="30" y="238" fill="#94A3B8" opacity="0">🎓 Education <tspan fill="#F8FAFC">M.S. Computer Engineering — ASU</tspan><animate attributeName="opacity" to="1" begin="1.3s" dur="0.3s" fill="freeze"/></text>
-        <text x="30" y="264" fill="#94A3B8" opacity="0">⚡ Focus <tspan fill="#F8FAFC">Kernel Power Management &amp; Greenness</tspan><animate attributeName="opacity" to="1" begin="1.6s" dur="0.3s" fill="freeze"/></text>
-        <text x="30" y="290" fill="#94A3B8" opacity="0">🔗 Portfolio <tspan fill="#F8FAFC">your-portfolio-url.dev</tspan><animate attributeName="opacity" to="1" begin="1.9s" dur="0.3s" fill="freeze"/></text>
-        <text x="30" y="316" fill="#94A3B8" opacity="0">✉ Email <tspan fill="#F8FAFC">your-email@example.com</tspan><animate attributeName="opacity" to="1" begin="2.2s" dur="0.3s" fill="freeze"/></text>
+        <text x="30" y="264" fill="#94A3B8" opacity="0" font-size="11.5">⚡ Focus <tspan fill="#F8FAFC">OS · IoT · Edge AI · Embedded Systems · Device Drivers · Research</tspan><animate attributeName="opacity" to="1" begin="1.6s" dur="0.3s" fill="freeze"/></text>
+        <text x="30" y="290" fill="#94A3B8" opacity="0">🔗 GitHub <tspan fill="#F8FAFC">github.com/jethwa09</tspan><animate attributeName="opacity" to="1" begin="1.9s" dur="0.3s" fill="freeze"/></text>
+        <text x="30" y="316" fill="#94A3B8" opacity="0">✉ Email <tspan fill="#F8FAFC">vipuljethwa009@gmail.com</tspan><animate attributeName="opacity" to="1" begin="2.2s" dur="0.3s" fill="freeze"/></text>
       </g>
 
       <line x1="30" y1="336" x2="600" y2="336" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
@@ -287,10 +318,10 @@
             <text x="18" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#F8FAFC">𝕏</text>
           </g>
         </a>
-        <a href="#">
+        <a href="mailto:vipuljethwa009@gmail.com">
           <g class="social" transform="translate(144,0)">
             <circle cx="18" cy="18" r="18" fill="rgba(16,185,129,0.10)" stroke="rgba(16,185,129,0.3)"/>
-            <text x="18" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#F8FAFC">🌐</text>
+            <text x="18" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#F8FAFC">✉</text>
           </g>
         </a>
       </g>
